@@ -46,7 +46,7 @@ public class GoogleEndpointAsyncTask extends AsyncTask<MainActivityFragment, Voi
 
 
         try {
-            return String.valueOf(myApiService.sayHi(""));
+            return String.valueOf(myApiService.tellJoke());
         } catch (IOException e) {
             return e.getMessage();
         }
